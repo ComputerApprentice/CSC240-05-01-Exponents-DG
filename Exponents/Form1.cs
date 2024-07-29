@@ -68,10 +68,14 @@ namespace Exponents
             // the input and output text should be emptied
             UxInputTextBox.Clear();
             UxOutputLabel.Text = "";
+
             // turn the output to invisible
             UxOutputLabel.Visible = false;
+
             // turn the Go button back on
             UxGoButton.Enabled=true;
+
+            UxResetButton.Enabled = false;
         }
 
     }

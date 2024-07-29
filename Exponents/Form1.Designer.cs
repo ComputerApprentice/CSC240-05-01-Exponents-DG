@@ -47,7 +47,7 @@
             this.UxInputLabel.AutoSize = true;
             this.UxInputLabel.Location = new System.Drawing.Point(92, 27);
             this.UxInputLabel.Name = "UxInputLabel";
-            this.UxInputLabel.Size = new System.Drawing.Size(85, 13);
+            this.UxInputLabel.Size = new System.Drawing.Size(97, 15);
             this.UxInputLabel.TabIndex = 3;
             this.UxInputLabel.Text = "Enter an integer:";
             // 
@@ -56,7 +56,7 @@
             this.UxOutputLabel.AutoSize = true;
             this.UxOutputLabel.Location = new System.Drawing.Point(102, 181);
             this.UxOutputLabel.Name = "UxOutputLabel";
-            this.UxOutputLabel.Size = new System.Drawing.Size(0, 13);
+            this.UxOutputLabel.Size = new System.Drawing.Size(0, 15);
             this.UxOutputLabel.TabIndex = 4;
             this.UxOutputLabel.Visible = false;
             // 
@@ -72,6 +72,7 @@
             // 
             // UxResetButton
             // 
+            this.UxResetButton.Enabled = false;
             this.UxResetButton.Location = new System.Drawing.Point(105, 212);
             this.UxResetButton.Name = "UxResetButton";
             this.UxResetButton.Size = new System.Drawing.Size(75, 23);
